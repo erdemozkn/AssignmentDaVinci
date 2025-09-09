@@ -1,0 +1,146 @@
+.post-list-container {
+
+    .list {
+        width: 600px;
+        padding: 2rem;
+        border: 1px solid #128d64;
+        border-radius: 8px;
+        background-color: rgba($color: #151515, $alpha: 0.5);
+    }
+
+    .items {
+        padding: 0.5rem;
+
+        form {
+            display: flex;
+            align-items: center;
+
+            button {
+                font-size: 18px;
+            }
+        }
+
+        input {
+            border: none;
+            border-radius: 4px;
+            padding: 1rem;
+            margin-right: 0.5rem;
+            width: 100%;
+        }
+    }
+
+    .details {
+        display: flex;
+        align-items: center;
+        border: none;
+        border-radius: 4px;
+        background-color: rgba($color: #128d64, $alpha: 0.5);
+        padding: 0 1rem;
+        p {
+            width: 100%;
+        }
+    }
+
+    .submit-button {
+        color: white;
+
+        &:hover {
+            background-color: #0056b3;
+        }
+    }
+
+    .cancel-button {
+        color: #f44336;
+        font-size: 23px;
+        display: flex;
+        align-items: center;
+        margin-left: 6px;
+
+        &:hover {
+            border-color: #f44336;
+        }
+    }
+
+    .update {
+        display: flex;
+        justify-content: end;
+        width: 100%;
+
+        button {
+            margin-left: 0.5rem;
+        }
+
+        span {
+            font-size: 23px;
+            display: flex;
+            align-items: center;
+        }
+
+        .edit-icon {
+            color: #d3d60d;
+            align-items: center;
+            &:hover {
+                border-color: #d3d60d;
+            }
+        }
+
+        .delete-icon {
+            color: #f44336;
+
+            &:hover {
+                border-color: #f44336;
+            }
+        }
+
+        .posts-icon {
+            color: #4caf50;
+
+            &:hover {
+                border-color: #4caf50;
+            }
+        }
+    }
+
+    .create {
+        display: flex;
+        justify-content: end;
+        button {
+            margin-top: 1rem;
+            background-color: rgba($color: #0d6346, $alpha: 0.8);
+            border: 1px solid #128d64;
+            color: white;
+
+            &:hover {
+                background-color: #084430;
+            }
+        }
+    }
+
+    .pagination {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+
+        button {
+            margin: 0 0.25rem;
+            border: none;
+            border-radius: 4px;
+            background-color: rgba($color: #128d64, $alpha: 0.5);
+            color: white;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #128d64;
+            }
+        }
+    }
+
+    .active {
+        background-color: #3f3f3f;
+    }
+    .controls {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
